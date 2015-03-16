@@ -14,16 +14,16 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/syndtr/gosnappy/snappy"
+	"github.com/scalingdata/gosnappy/snappy"
 
-	"github.com/syndtr/goleveldb/leveldb/cache"
-	"github.com/syndtr/goleveldb/leveldb/comparer"
-	"github.com/syndtr/goleveldb/leveldb/errors"
-	"github.com/syndtr/goleveldb/leveldb/filter"
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/scalingdata/goleveldb/leveldb/cache"
+	"github.com/scalingdata/goleveldb/leveldb/comparer"
+	"github.com/scalingdata/goleveldb/leveldb/errors"
+	"github.com/scalingdata/goleveldb/leveldb/filter"
+	"github.com/scalingdata/goleveldb/leveldb/iterator"
+	"github.com/scalingdata/goleveldb/leveldb/opt"
+	"github.com/scalingdata/goleveldb/leveldb/storage"
+	"github.com/scalingdata/goleveldb/leveldb/util"
 )
 
 var (

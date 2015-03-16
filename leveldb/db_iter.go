@@ -12,9 +12,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/scalingdata/goleveldb/leveldb/iterator"
+	"github.com/scalingdata/goleveldb/leveldb/opt"
+	"github.com/scalingdata/goleveldb/leveldb/util"
 )
 
 var (
