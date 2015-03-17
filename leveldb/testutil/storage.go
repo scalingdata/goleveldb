@@ -16,10 +16,10 @@ import (
 	"strings"
 	"sync"
 
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/gomega"
 
-	"github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/scalingdata/goleveldb/leveldb/storage"
+	"github.com/scalingdata/goleveldb/leveldb/util"
 )
 
 var (

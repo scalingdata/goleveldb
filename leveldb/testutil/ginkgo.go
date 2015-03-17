@@ -1,8 +1,8 @@
 package testutil
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/gomega"
 )
 
 func RunSuite(t GinkgoTestingT, name string) {

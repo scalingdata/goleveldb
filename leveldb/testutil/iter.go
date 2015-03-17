@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/gomega"
 
-	"github.com/syndtr/goleveldb/leveldb/iterator"
+	"github.com/scalingdata/goleveldb/leveldb/iterator"
 )
 
 type IterAct int

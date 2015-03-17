@@ -7,10 +7,10 @@
 package iterator_test
 
 import (
-	. "github.com/onsi/ginkgo"
+	. "github.com/scalingdata/ginkgo"
 
-	. "github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/testutil"
+	. "github.com/scalingdata/goleveldb/leveldb/iterator"
+	"github.com/scalingdata/goleveldb/leveldb/testutil"
 )
 
 var _ = testutil.Defer(func() {

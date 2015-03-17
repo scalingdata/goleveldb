@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"math/rand"
 
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/gomega"
 
-	"github.com/syndtr/goleveldb/leveldb/errors"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/scalingdata/goleveldb/leveldb/errors"
+	"github.com/scalingdata/goleveldb/leveldb/util"
 )
 
 func KeyValueTesting(rnd *rand.Rand, kv KeyValue, p DB, setup func(KeyValue) DB, teardown func(DB)) {

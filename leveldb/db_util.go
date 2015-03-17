@@ -7,11 +7,11 @@
 package leveldb
 
 import (
-	"github.com/syndtr/goleveldb/leveldb/errors"
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/scalingdata/goleveldb/leveldb/errors"
+	"github.com/scalingdata/goleveldb/leveldb/iterator"
+	"github.com/scalingdata/goleveldb/leveldb/opt"
+	"github.com/scalingdata/goleveldb/leveldb/storage"
+	"github.com/scalingdata/goleveldb/leveldb/util"
 )
 
 // Reader is the interface that wraps basic Get and NewIterator methods.
