@@ -16,7 +16,7 @@ import (
 	"strings"
 	"sync"
 
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/gomega"
 
 	"github.com/scalingdata/goleveldb/leveldb/storage"
 	"github.com/scalingdata/goleveldb/leveldb/util"

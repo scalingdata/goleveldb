@@ -13,7 +13,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/onsi/ginkgo/config"
+	"github.com/scalingdata/ginkgo/config"
 
 	"github.com/scalingdata/goleveldb/leveldb/comparer"
 )

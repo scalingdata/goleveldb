@@ -7,8 +7,8 @@
 package memdb
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
+	. "github.com/scalingdata/ginkgo"
+	. "github.com/scalingdata/gomega"
 
 	"github.com/scalingdata/goleveldb/leveldb/comparer"
 	"github.com/scalingdata/goleveldb/leveldb/iterator"
